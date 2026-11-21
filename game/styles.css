@@ -1,0 +1,28 @@
+/* The Old Library — Spot the Difference: page chrome around the canvas. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #14100a;
+  color: #f3e6c8;
+  font-family: Georgia, 'Times New Roman', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main { padding: 12px; text-align: center; }
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border: 3px solid #5a4a34;
+  border-radius: 8px;
+  background: #241a10;
+  cursor: crosshair;
+}
+.note {
+  margin: 10px auto 0;
+  max-width: 900px;
+  font-size: 14px;
+  color: #b8a888;
+}
